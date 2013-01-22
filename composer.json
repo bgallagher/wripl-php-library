@@ -1,2 +1,8 @@
 {
+    "name": "bgallagher/wripl-php-library",
+    "autoload": {
+        "psr-0": {
+            "Wripl": "lib/"
+        } 
+    }
 }
