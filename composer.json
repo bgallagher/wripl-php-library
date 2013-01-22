@@ -1,13 +1,6 @@
 {
     "name": "bgallagher/wripl-php-library",
     "type": "library",
-    "keywords": [
-        "wripl"
-    ],
-    "homepage": "https://github.com/bgallagher/wripl-php-library",
-    "require": {
-        "php": ">=5.3.3"
-    },
     "autoload": {
         "psr-0": {
             "Wripl": "lib/"
