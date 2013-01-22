@@ -1,9 +1,12 @@
 {
     "name": "bgallagher/wripl-php-library",
-    "type": "library",
-    "autoload": {
-        "psr-0": {
-            "Wripl": "lib/"
-        } 
+    "authors": [
+        {
+            "name": "Brian Gallagher",
+            "email": "gallagher.brian@gmail.com"
+        }
+    ],
+    "require": {
+
     }
 }
