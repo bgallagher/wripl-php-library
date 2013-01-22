@@ -1,6 +1,5 @@
 {
     "name": "bgallagher/wripl-php-library",
-    "description": "Blah",
     "type": "library",
     "autoload": {
         "psr-0": {
