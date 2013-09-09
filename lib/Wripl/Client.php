@@ -131,12 +131,14 @@ class Wripl_Client
     }
 
     /**
-     *
-     * @param String $path
-     * @param String $siteId
-     * @param String $title
-     * @param String $body
-     * @return String Responce body from service
+     * @param $path
+     * @param $title
+     * @param $body
+     * @param $absoluteUrl
+     * @param null $imageUrl
+     * @param array $tags
+     * @param DateTime $publicationDate
+     * @return mixed
      */
     public function addToIndex($path, $title, $body, $absoluteUrl, $imageUrl = null, array $tags = array(), DateTime $publicationDate = null)
     {
